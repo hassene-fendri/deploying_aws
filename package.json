@@ -16,7 +16,9 @@
     "url": "https://github.com/hassene-fendri/deploying_aws/issues"
   },
   "homepage": "https://github.com/hassene-fendri/deploying_aws#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3"
   }
 }
