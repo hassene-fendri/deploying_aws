@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('<h1>${process.env.MESSAGE}</h1>')
+  res.send('Hello body')
 })
 
 app.listen(3000,() => console.log('Server running on port 80'))
