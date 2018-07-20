@@ -1,5 +1,7 @@
 FROM node:8
 
+
+
 # Create app directory
 WORKDIR /usr/src/app
 
@@ -15,5 +17,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000 8081
 CMD [ "node", "/usr/src/app/index" ]
